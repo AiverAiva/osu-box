@@ -13,7 +13,16 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: AiverAiva/osu-box@main
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install  
+
+      - name: Update Gist
+        run: node index.js  
         env:
           GIST_ID: 68c3458672047ec25e61a8af730181c3
           OSU_USERNAME: weikuu
