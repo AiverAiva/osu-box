@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: AiverAiva/osu-box@master
+      - uses: AiverAiva/osu-box@main
         env:
           GIST_ID: 68c3458672047ec25e61a8af730181c3
           OSU_USERNAME: weikuu
