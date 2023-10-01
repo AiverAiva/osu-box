@@ -7,7 +7,7 @@
    <img src="https://img.shields.io/github/stars/AiverAiva/osu-box"/>
    <img src="https://img.shields.io/github/forks/AiverAiva/osu-box"/>
   </p>
-  <p align="center">idk but its description here</p>
+  <p align="center">Share your osu! stats to everyone on Github by using this gadget! 🎶</p>
 </p>
 
 ---
