@@ -2,7 +2,7 @@ name: Update osu-stats gist
 
 on:
   schedule:
-    - cron: "45 * * * *"
+    - cron: "0 0 * * *"
 
 jobs:
   build:
