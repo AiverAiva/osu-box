@@ -3,9 +3,7 @@ name: Update osu-stats gist
 on:
   schedule:
     - cron: "0 0 * * *"
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   build:
@@ -22,7 +20,7 @@ jobs:
         run: npm install  
 
       - name: Update Gist
-        run: node index.js  
+        run: npm start
         env:
           GIST_ID: 68c3458672047ec25e61a8af730181c3
           OSU_USERNAME: weikuu
