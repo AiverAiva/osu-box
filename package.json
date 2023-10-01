@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "actions-toolkit": "^6.0.1",
+    "dotenv": "^16.3.1",
+    "gist-box": "^0.3.1",
+    "osu-api-extended": "^2.7.67",
+    "request": "^2.88.2"
+  }
+}

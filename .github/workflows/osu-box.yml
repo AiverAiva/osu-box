@@ -1,0 +1,23 @@
+name: Update osu-stats gist
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: AiverAiva/osu-box@master
+        env:
+          GIST_ID: 68c3458672047ec25e61a8af730181c3
+          OSU_USERNAME: weikuu
+          OSU_MODE: osu
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          CLEINT_SECRET: ${{ secrets.CLIENT_SECRET }}
