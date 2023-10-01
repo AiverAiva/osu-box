@@ -22,6 +22,8 @@ This project requests your osu data from api, and automatically update them into
 
 1. Create a new public GitHub Gist (https://gist.github.com/)
 1. Create a token with the `gist` scope and copy it. (https://github.com/settings/tokens/new)
+
+(You can skip the steps below if you have an exist OAuth Application in osu, and you know what you are doing)
 1. Login your osu account on osu website (https://osu.ppy.sh/home)
 2. Click on your avatar (Right Top), and then **Settings** > Scroll down and look for the **OAuth** section > **New OAuth Application** > Input the infomation(just anything for name and callback url, you can update them later) > **Register Application** > remember the **Client ID** and **Client Secret**, we need them later.
 
