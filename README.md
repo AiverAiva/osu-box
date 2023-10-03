@@ -26,7 +26,15 @@ This project requests your osu data from api, and automatically update them into
 (You can skip the steps below if you have an exist OAuth Application in osu, and you know what you are doing)
 
 3. Login your osu account on osu website (https://osu.ppy.sh/home)
-4. Click on your avatar (Right Top), and then **Settings** > Scroll down and look for the **OAuth** section > **New OAuth Application** > Input the infomation(just anything for name and callback url, you can update them later) > **Register Application** > remember the **Client ID** and **Client Secret**, we need them later.
+4. Click on your avatar (Right Top), and then **Settings** 
+> Scroll down and look for the **OAuth** section > **New OAuth Application** 
+![1](https://github.com/AiverAiva/osu-box/assets/43096905/a8c12662-abfd-4867-a754-a8b6525e5fa7)
+
+> Input the infomation(just anything for name and callback url, you can update them later) > **Register Application** 
+![2](https://github.com/AiverAiva/osu-box/assets/43096905/1e9f2c2a-0ba9-4007-9b77-c055d1736473)
+
+> remember the **Client ID** and **Client Secret**, we need them later (VERI IMPORTANT).
+![3](https://github.com/AiverAiva/osu-box/assets/43096905/8533a382-66b8-4d93-95f9-e1ed897b8ec3)
 
 ### Project setup
 
