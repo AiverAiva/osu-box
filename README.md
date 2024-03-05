@@ -33,8 +33,12 @@ This project requests your osu data from api, and automatically update them into
 > Input the infomation(just anything for name and callback url, you can update them later) > **Register Application** 
 ![2](https://github.com/AiverAiva/osu-box/assets/43096905/1e9f2c2a-0ba9-4007-9b77-c055d1736473)
 
+> [!WARNING]  
+> Do **NOT** share your **Client ID** and **Client Secret** publicly, otherwise it may cause your osu account or api being restricted.
+
 > remember the **Client ID** and **Client Secret**, we need them later (VERI IMPORTANT).
 ![3](https://github.com/AiverAiva/osu-box/assets/43096905/8533a382-66b8-4d93-95f9-e1ed897b8ec3)
+
 
 ### Project setup
 
