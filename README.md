@@ -48,7 +48,7 @@ This project requests your osu data from api, and automatically update them into
    - **OSU_MODE:** The stats of which mode you want to display. (`osu`, `fruits`, `mania`, `taiko`)
 
 1. Go to the repo **Settings > Secrets**
-1. Add the following environment variables:
+1. Add the following environment **secrets**:
    - **GH_TOKEN:** The GitHub token generated above.
    - **CLIENT_ID:** The osu! Client ID generated above.
    - **CLIENT_SECRET:** The osu Client Secret generated above.
