@@ -29,4 +29,4 @@ jobs:
           OSU_MODE: osu
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           CLIENT_ID: ${{ secrets.CLIENT_ID }}
-          CLEINT_SECRET: ${{ secrets.CLIENT_SECRET }}
+          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
