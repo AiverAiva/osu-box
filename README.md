@@ -18,6 +18,9 @@
 ## Overview
 This project requests your osu data from api, and automatically update them into a Github Gist, which u can get the gists pinned in your profile.
 
+### TODO
+- Making it not being disabled automatically by Github.
+
 ### Prep work
 
 1. Create a new public GitHub Gist (https://gist.github.com/)
